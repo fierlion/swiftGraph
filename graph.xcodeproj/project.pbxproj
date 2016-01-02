@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		71A2A7811C37593A00B25244 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A2A7801C37593A00B25244 /* main.swift */; };
+		71A2A7881C37597600B25244 /* graphProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A2A7871C37597600B25244 /* graphProtocol.swift */; };
+		71A2A78A1C385A6200B25244 /* graphAdjMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A2A7891C385A6200B25244 /* graphAdjMatrix.swift */; };
+		71A2A78C1C38620900B25244 /* graphAdjList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A2A78B1C38620900B25244 /* graphAdjList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		71A2A77D1C37593A00B25244 /* graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = graph; sourceTree = BUILT_PRODUCTS_DIR; };
 		71A2A7801C37593A00B25244 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		71A2A7871C37597600B25244 /* graphProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = graphProtocol.swift; sourceTree = "<group>"; };
+		71A2A7891C385A6200B25244 /* graphAdjMatrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = graphAdjMatrix.swift; sourceTree = "<group>"; };
+		71A2A78B1C38620900B25244 /* graphAdjList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = graphAdjList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				71A2A7801C37593A00B25244 /* main.swift */,
+				71A2A7871C37597600B25244 /* graphProtocol.swift */,
+				71A2A7891C385A6200B25244 /* graphAdjMatrix.swift */,
+				71A2A78B1C38620900B25244 /* graphAdjList.swift */,
 			);
 			path = graph;
 			sourceTree = "<group>";
@@ -119,6 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A2A7881C37597600B25244 /* graphProtocol.swift in Sources */,
+				71A2A78A1C385A6200B25244 /* graphAdjMatrix.swift in Sources */,
+				71A2A78C1C38620900B25244 /* graphAdjList.swift in Sources */,
 				71A2A7811C37593A00B25244 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
