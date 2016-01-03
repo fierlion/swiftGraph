@@ -43,7 +43,7 @@ class graphAdjMatrix: Graph {
     func getNeighbors(v: Int) -> [Int] {
         var neighbors: [Int] = []
         for i in 0...self.adjMatrix[v].count-1 {
-            if self.adjMatrix[v][i] == 1 {
+            if self.adjMatrix[v][i] > 0 {
                 neighbors.append(self.adjMatrix[v][i])
             }
         }
