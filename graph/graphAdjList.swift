@@ -33,9 +33,12 @@ class AdjList: Graph {
     }
     
     func getNeighbors(v: Int) -> [Int] {
+        var neighbors: [Int] = [Int]()
         if self.adjListDict[v] != nil {
-            return self.adjListDict[v]!
+            for i in 0...self.adjListDict[v]!.count {
+                neighbors.append(self.adjListDict[v]![i])
+            }
         }
-        return []
+        return neighbors
     }    
 }
